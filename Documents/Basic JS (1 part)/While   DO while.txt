@@ -1,0 +1,35 @@
+
+
+
+var condition = true;
+var i = 2;
+
+while (condition){
+  if(i==3){
+    condition =false;
+  }
+  console.log(i);
+  i++;
+}
+
+
+var condition = false;
+do{
+  console.log("Execute");
+}
+while(condition);
+
+
+var i= 0;
+do{
+  console.log(i);
+  i++;
+}
+while(i<0);
+
+
+var i= 0;
+while(i <0){
+  console.log(i);
+  i++;
+  }
